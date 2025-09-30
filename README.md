@@ -1,8 +1,4 @@
-# predicting-customer-credit-mix
-
 # Predicting Customer Credit Mix
-
-Predict the **`Credit_Mix`** category (e.g., `Good` / `Standard` / `Poor`) for a customer from financial attributes, and generate **actionable recommendations** to improve credit health.
 
 **Dataset (public CSV):**
 `https://raw.githubusercontent.com/rashakil-ds/Public-Datasets/refs/heads/main/Bank%20Data.csv`
@@ -299,6 +295,3 @@ pipe = joblib.load("models/credit_mix_model.joblib")
 
 ---
 
-## License & Use
-
-Educational use only; not financial advice. Ensure data privacy and compliance when handling personal information.
